@@ -1,0 +1,138 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: lightblue ;
+}
+
+.header {
+    padding: 10px 0px 0px 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: lightskyblue;
+    color: lightblue;
+}
+
+.header h1 {
+    display: inline-block;
+    background-color: lightyellow;
+    font-size: 40px;
+}
+
+.header nav {
+    padding-top: 10px;
+    margin-right: 50px;
+    float: right;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px
+}
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+}
+
+a {
+    color: lightyellow;
+    text-decoration: underline;
+     
+}
+
+p {
+    font-size: 15px;
+}
+
+.unsure {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("");
+    background-size: cover;
+    background: center;
+}
+.figcaption {
+    float: right;
+    background-color: lightyellow;
+}
+
+#flex-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-content {
+    display: flex;
+
+}
+
+.title {
+    flex: 0 0 200px;
+    padding-left: 12px;
+    border-right-style: ridge;
+    border-color: green;
+}
+
+.content {
+    flex: 1 1 800px
+}
+.work {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100%;
+}
+
+#flex-work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.big-card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 800px;
+    justify-content:end;
+    background-color: purple;
+    border-style: double;
+    border-width: 10px;
+    border-color: lightyellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 250px;
+    height: 200px; 
+    /* justify-content: ; */
+    background-color: purple;
+    border-style: double;
+    border-width: 10px;
+    border-color: lightyellow;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* .big-card img {
+
+}
+
+.card img {
+
+} */
+.contact ul li {
+    display: inline-block;
+    color: lightyellow;
+    text-decoration: underline;
+    justify-content: center;
+    padding: 30px;
+}
+
