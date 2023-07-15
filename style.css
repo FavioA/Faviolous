@@ -5,19 +5,19 @@
 }
 
 body {
-    background-color: lightblue ;
+    background-color: lightgrey;
 }
 
 .header {
     padding: 10px 0px 0px 50px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: lightskyblue;
-    color: lightblue;
+    background-color: rgb(80, 79, 79);
+    color: rgb(80, 79, 79);
 }
 
 .header h1 {
     display: inline-block;
-    background-color: lightyellow;
+    background-color: whitesmoke;
     font-size: 40px;
 }
 
@@ -38,13 +38,14 @@ body {
 }
 
 a {
-    color: lightyellow;
+    color: whitesmoke;
     text-decoration: underline;
      
 }
 
 p {
     font-size: 15px;
+    color: rgb(80, 79, 79);
 }
 
 .unsure {
@@ -75,9 +76,9 @@ p {
     padding-left: 12px;
     padding-right: 5px;
     border-right-style: ridge;
-    border-color: blue;
+    border-color: darkgray;
     border-width: 3px;
-    color:blue;
+    color: rgb(80, 79, 79);
     
 }
 
@@ -100,32 +101,34 @@ p {
 }
 
 .big-card {
+    color: rgb(80, 79, 79);
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 50px;
     margin-left: 20px;
     height: 350px;
     justify-content:center;
-    background-color: purple;
+    background-color: darkgray;
     border-style: double;
     border-radius: 10px;
     border-width: 10px;
-    border-color: lightyellow;
+    border-color: whitesmoke;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
 }
 
 .card {
+    color: rgb(80, 79, 79)
     margin-top: 20px;
     margin-bottom: 20px;
     height: 150px; 
     width: 400px;
     /* justify-content: ; */
-    background-color: purple;
+    background-color: darkgray;
     border-style: double;
     border-radius: 10px;
     border-width: 10px;
-    border-color: lightyellow;
+    border-color: whitesmoke;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     position: relative;
 }
@@ -151,7 +154,7 @@ p {
 .contact ul li {
 
     display: inline-block;
-    color: lightyellow;
+    color: whitesmoke;
     text-decoration: underline;
     justify-content: center;
     padding: 30px;
