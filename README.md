@@ -18,4 +18,4 @@
 ![Screenshot of portfolio website.](/images/Portfolio-Site-Screenshot.png)
 
 ## Link to deployed website 
-This site was built using [GitHub Pages](https://favioa.github.io/Horiseon/).
+This site was built using [GitHub Pages](https://favioa.github.io/Faviolous/).
