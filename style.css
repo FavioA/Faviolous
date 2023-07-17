@@ -164,6 +164,10 @@ p {
 
 }
 
+.application {
+    padding-top: 10px;
+}
+
 .contact {
     display: flex;
 }
@@ -176,8 +180,11 @@ p {
     justify-content: center;
     padding: 30px;
 }
+.contactlinks {
+    color: rgb(80, 79, 79)
+}
 
 a:hover {
-    color: whitesmoke
+    color: goldenrod;
 
 }

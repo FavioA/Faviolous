@@ -15,9 +15,7 @@
 > * A portfolio website that WHEN the page is resized or viewed on various screen and devices, THEN the user is presented with a responsive layout that adapts to the user's viewport.
 
 ## Screenshot ()
-![Screenshot of portfolio website.](/images/Horiseon-Website.png)
-> **Note**: The website is not fully visible in the screenshot. However, it is fully visible and functional when using the link.
+![Screenshot of portfolio website.](/images/Portfolio-Site-Screenshot.png)
 
 ## Link to deployed website 
-
 This site was built using [GitHub Pages](https://favioa.github.io/Horiseon/).
