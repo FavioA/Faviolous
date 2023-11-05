@@ -1,190 +1,175 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    background-color: lightgrey;
+  background-color: lightgrey;
 }
 
 .header {
-    padding: 10px 0px 0px 50px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: rgb(80, 79, 79);
-    color: rgb(80, 79, 79);
+  padding: 10px 0px 0px 50px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background-color: rgb(80, 79, 79);
+  color: rgb(80, 79, 79);
 }
 
 .header h1 {
-    display: inline-block;
-    background-color: whitesmoke;
-    font-size: 40px;
+  display: inline-block;
+  background-color: whitesmoke;
+  font-size: 40px;
 }
 
 .header nav {
-    padding-top: 10px;
-    margin-right: 50px;
-    float: right;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px
+  padding-top: 10px;
+  margin-right: 50px;
+  float: right;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
 }
 
 .header nav ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .header nav ul li {
-    display: inline-block;
+  display: inline-block;
 }
 
 a {
-    color: whitesmoke;
-    text-decoration: underline;
-
+  color: whitesmoke;
+  text-decoration: underline;
 }
 
 p {
-    font-size: 15px;
-    color: rgb(80, 79, 79);
+  font-size: 15px;
+  color: rgb(80, 79, 79);
 }
 
 .unsure {
-    display: flex;
-    justify-content: center;
-    height: 400px;
-    width: 100%;
-    background-image: url(./images/favioamezcua.png);
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-size: contain;
-    background-position: top;
-    background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 100%;
+  background-image: url(./images/favioamezcua.png);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
 #Favio {
-    width: 250px;
-    height: 300px;
-
+  width: 250px;
+  height: 300px;
 }
 
-
 .figcaption {
-    color: whitesmoke;
-    font-weight: 800;
-    font-size: 20px;
-    position: relative;
-    text-align: end;
-    top: 370px;
+  color: whitesmoke;
+  font-weight: 800;
+  font-size: 20px;
+  position: relative;
+  text-align: end;
+  top: 370px;
 }
 
 #flex-main {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .flex-content {
-    display: flex;
-
+  display: flex;
 }
 
 .title {
-    flex: 0 0 200px;
-    padding-left: 12px;
-    padding-right: 5px;
-    border-right-style: ridge;
-    border-color: darkgray;
-    border-width: 3px;
-    color: rgb(80, 79, 79);
-
+  flex: 0 0 200px;
+  padding-left: 12px;
+  padding-right: 5px;
+  border-right-style: ridge;
+  border-color: darkgray;
+  border-width: 3px;
+  color: rgb(80, 79, 79);
 }
 
 .content {
-    flex: 1 1 800px;
-    margin-left: 20px;
-    margin-right: 50px;
+  flex: 1 1 800px;
+  margin-left: 20px;
+  margin-right: 50px;
 }
 
 .work {
-    display: flex;
-
+  display: flex;
 }
 
 #flex-work {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 .big-card {
-    color: rgb(80, 79, 79);
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 50px;
-    margin-left: 20px;
-    height: 350px;
-    justify-content: center;
-    background-color: darkgray;
-    border-style: double;
-    border-radius: 10px;
-    border-width: 10px;
-    border-color: whitesmoke;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
+  color: rgb(80, 79, 79);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+  margin-left: 20px;
+  height: 350px;
+  justify-content: center;
+  background-color: darkgray;
+  border-style: double;
+  border-radius: 10px;
+  border-width: 10px;
+  border-color: whitesmoke;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .card {
-    color: rgb(80, 79, 79);
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: 150px;
-    width: 400px;
-    background-color: darkgray;
-    border-style: double;
-    border-radius: 10px;
-    border-width: 10px;
-    border-color: whitesmoke;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-
+  color: rgb(80, 79, 79);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 150px;
+  width: 400px;
+  background-color: darkgray;
+  border-style: double;
+  border-radius: 10px;
+  border-width: 10px;
+  border-color: whitesmoke;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .big-card img {
-    width: 100%;
-    height: 100%;
-
-
+  width: 100%;
+  height: 100%;
 }
 
 .card img {
-    width: 100%;
-    height: 100%;
-
-
+  width: 100%;
+  height: 100%;
 }
 
 .application {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 .contact {
-    display: flex;
+  display: flex;
 }
 
 .contact ul li {
-
-    display: inline-block;
-    color: rgb(80, 79, 79);
-    text-decoration: underline;
-    justify-content: center;
-    padding: 30px;
+  display: inline-block;
+  color: rgb(80, 79, 79);
+  text-decoration: underline;
+  justify-content: center;
+  padding: 30px;
 }
 .contactlinks {
-    color: rgb(80, 79, 79)
+  color: rgb(80, 79, 79);
 }
 
 a:hover {
-    color: goldenrod;
-
+  color: goldenrod;
 }
